@@ -1,0 +1,62 @@
+The encoding Schemes here are:
+    1. ASCII
+    2.UTF-8
+    3.UTF-16
+    4.UTF-32
+    5.ROT-13
+    6.ROT-n
+
+Descriptions are here:
+======================================================================================
+ASCII: Ascii is also known as "American Standard Code for Information Interchange"
+    There are 128 characters in ASCII table.
+    To convert the characters to binary, ASCII Scheme uses this process;
+    Text → respective ASCII value → Convert to binary
+    To convert the characters to hexadecimal;
+    Text → respective ASCII value → Convert to hexadecimal
+    To convert the characters to octal;
+    Text → respective ASCII value → Convert to octal
+======================================================================================
+UTF-8: 
+    MOST USED & EFFICIENT
+    8 means 8 bits as it means total 2^8 or 256 character or 
+    Uses minimum 1 bytes encoding scheme
+    But that means, UTF-8 does NOT have a 256-character limit (that’s ASCII Extended).
+    UTF-8 is variable-length (1 to 4 bytes per character) and can represent over a 
+    million characters. It'll first convert all of the characters into value using 
+    utf-8 table, then convert them into binary, then make every characters in 8 bits chunks.
+
+    Text →  utf-8 table value → binary  → make them 8 bits
+    C    →  67 (from UTF-8)   → 1100110 → 01100110
+======================================================================================
+UTF-16:
+    USED IN WINDOWS & JAVA
+    16 means 16 bits as it means total 2^16 or 65,536 character or 
+    Uses minimum 2 bytes encoding scheme and UTF-16 uses 2 bytes for most characters, 
+    but some symbols (like emojis) require 4 bytes (surrogate pairs) which actually
+    means, it'll first convert all of the characters into value using utf-16 table,
+    then convert them into binary, then make every characters in 8 bits chunks.
+
+    Text →  utf-16 table value → binary  → make them 16 bits
+    C    →  67 (from UTF-16)   → 1100110 → 00000000 01100110
+======================================================================================
+UTF-32:
+    OVERKILL FOR MOST USES
+    16 means 32 bits as it means total 2^32 or 4,294,967,296 character or 
+    Uses exactly 4 bytes encoding scheme per characters and no exception 
+    means, it'll first convert all of the characters into value using utf-32 table,
+    then convert them into binary, then make every characters in 8 bits chunks.
+
+    Text →  utf-32 table value → binary  → make them 16 bits
+    C    →  67 (from UTF-32)   → 1100110 → 00000000 00000000 00000000 01100110
+======================================================================================
+ROT-13:
+    Rotating Every word by 13 aka shifting method
+    "ABCDEFGH" == "NOPQRSTU"
+======================================================================================
+ROT-n:
+    Means you can shift as per the given value no
+    as like in ROT-13, n was 13
+
+    
+Easter EGG: utf-7 == ASCII

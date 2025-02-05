@@ -6,4 +6,4 @@ for i in range(len(get)):
         out+="0"*(8-len(temp[2::]))+temp[2::]
     else:
         print("The Character you gave doesn't belong to the ASCII Table")
-print(out)
+print(f"Encoded ASCII binary String:\n{out}")
