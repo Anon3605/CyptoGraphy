@@ -15,6 +15,6 @@ def ROT13(text,shift,encoded=""):
     return encoded
 
 text=input("Enter anything you want: ")
-shifting=int(input("How much ya'll shifting cuz?: "))
+shifting=int(input("How much ya'll shifting cuz?: "))%26
 encoded=ROT13(text, shifting)
 print(encoded)
