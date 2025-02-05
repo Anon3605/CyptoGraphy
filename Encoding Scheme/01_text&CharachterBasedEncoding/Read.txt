@@ -1,10 +1,10 @@
-The encoding Schemes here are:
-    1. ASCII
-    2.UTF-8
-    3.UTF-16
-    4.UTF-32
-    5.ROT-13
-    6.ROT-n
+The text/character based encoding Schemes here are:
+    01.ASCII
+    02.UTF-8
+    03.UTF-16
+    04.UTF-32
+    05.ROT-13
+    06.ROT-n
 
 Descriptions are here:
 ======================================================================================

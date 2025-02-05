@@ -1,0 +1,4 @@
+The format based encodings are here:
+    01. binary
+    02. hexadecimal
+    03. octal
