@@ -20,3 +20,5 @@ if remain>0:
     base64String+=base64[int((binaryString[(idx-6):len(binaryString)]+"00"*lastElements),2)]
     base64String+="="*(lastElements)
 print(base64String)
+
+
