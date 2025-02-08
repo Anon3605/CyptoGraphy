@@ -24,7 +24,8 @@ def htmlEncoder(htmlCode):
     return encoded
 
 def usingModule(htmlCode):
-    encoded = html.escape(htmlCode)
+    # Keeping quotes as they are
+    encoded = html.escape(htmlCode, quote=False)
     decoded = html.unescape(encoded)
     return (encoded, decoded)
 
