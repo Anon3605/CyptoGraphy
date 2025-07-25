@@ -35,7 +35,7 @@ This repository documents and demonstrates the foundational and advanced compone
 
 ---
 
-## 🗂️ File Structure
+## File Structure
 
 ```text
 cryptography/
