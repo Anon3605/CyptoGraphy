@@ -33,26 +33,7 @@ One-way irreversible functions used for integrity verification, fingerprints, an
 
 ## Directory Structure
 
-cryptography/\n
-├── encoding_decoding/
-│ ├── base64_tool.py
-│ ├── binary_ascii_converter.py
-│ └── hex_utf_converter.py
-│
-├── encryption_decryption/
-│ ├── aes_cipher.py
-│ ├── rsa_toolkit.py
-│ └── custom_ciphers/
-│ ├── caesar.py
-│ └── vigenere.py
-│
-├── hashing/
-│ ├── sha_hashing.py
-│ ├── md5_demo.py
-│ └── hmac_pbkdf2.py
-│
-└── README.md
-
+---
 
 ## Dependencies
 
