@@ -1,45 +1,68 @@
+# Welcome to ANON3605's Cryptography Repository
 
-# 💀 Welcome to **Mr X's Crypto Repo** 💀
+> *“Security is not a feature. It’s a discipline.”*
 
-> _"It's not about hiding... it's about **locking** what only you should see."_
-
----
-
-## 🧠 Topics Covered:
-1. 🧬 **Encoding ↔ Decoding**
-   - Base64, Hex, Binary, ASCII manipulations.
-2. 🛡️ **Encryption ↔ Decryption**
-   - Symmetric & Asymmetric Ciphers.
-   - AES, RSA, Caesar, Vigenère and more.
-3. 🔐 **Hashing**
-   - One-way digests like SHA256, MD5, bcrypt.
+Welcome to my personal cryptography lab. This repository contains my explorations, implementations, and practical experiments in modern cryptography techniques. It's structured for clarity, minimalism, and function — no bloat, no noise.
 
 ---
 
-## 🧰 Tools of the Trade:
-- Python 🐍
-- Custom scripts
-- Cryptographic libraries (`hashlib`, `pycryptodome`, `base64`, etc.)
+##  Topics Covered
+
+### 1. Encoding / Decoding
+Low-level transformations of data for representation, storage, or transmission.
+
+- Base64, Base32, Hex
+- UTF-8 ↔ ASCII ↔ Binary
+- Manual bitwise manipulations
+
+### 2. Encryption / Decryption
+Secure reversible transformations to protect confidentiality and integrity.
+
+- Symmetric Ciphers (AES, DES)
+- Asymmetric Ciphers (RSA, ECC)
+- Custom implementations (Caesar, Vigenère)
+
+### 3. Hashing
+One-way irreversible functions used for integrity verification, fingerprints, and secure storage.
+
+- SHA Family (SHA1, SHA256, SHA3)
+- MD5 (for comparison only, not recommended)
+- HMAC, PBKDF2
 
 ---
 
-## 📁 Structure
+## Directory Structure
+
+cryptography/
+├── encoding_decoding/
+│ ├── base64_tool.py
+│ ├── binary_ascii_converter.py
+│ └── hex_utf_converter.py
+│
+├── encryption_decryption/
+│ ├── aes_cipher.py
+│ ├── rsa_toolkit.py
+│ └── custom_ciphers/
+│ ├── caesar.py
+│ └── vigenere.py
+│
+├── hashing/
+│ ├── sha_hashing.py
+│ ├── md5_demo.py
+│ └── hmac_pbkdf2.py
+│
+└── README.md
 
 
----
+## Dependencies
 
-## 👨‍💻 Wanna Contribute?
-Pull requests are welcome — but only if you're not a script kiddie. 🔓
+- Python ≥ 3.8  
+- `cryptography`  
+- `pycryptodome`  
+- `hashlib`, `base64`, `binascii`
 
----
+Install with:
 
-## 💬 Contact
-📧 Reach me in the shadows at: `mr.x@protonmail.com`  
-🔗 Or find me somewhere in the matrix...
-
----
-
-> _"In the world of cryptography, trust is not given — it's **proven**."_ 🔐
-
----
+```bash
+pip install -r requirements.txt
 
