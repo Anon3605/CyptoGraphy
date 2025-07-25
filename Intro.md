@@ -23,7 +23,7 @@ This repository documents and demonstrates the foundational and advanced compone
     <td>Base64, Hex, ASCII ↔ Binary, UTF conversions</td>
   </tr>
   <tr>
-    <td><strong>🛡 Encryption / Decryption</strong></td>
+    <td><strong> Encryption / Decryption</strong></td>
     <td>AES, RSA, Caesar, Vigenère, stream/block ciphers</td>
   </tr>
   <tr>
