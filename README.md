@@ -33,7 +33,7 @@ One-way irreversible functions used for integrity verification, fingerprints, an
 
 ## Directory Structure
 
-cryptography/
+cryptography/\n
 ├── encoding_decoding/
 │ ├── base64_tool.py
 │ ├── binary_ascii_converter.py
