@@ -1,7 +1,8 @@
-<h1 align="center">🕶️ Mr X's Cryptography Repository</h1>
+<h1 align="center">Anon3605's Cryptography Repository</h1>
 <p align="center">
   <em>Low-level data control. High-level discipline.</em><br>
   <strong>Encoding | Encryption | Hashing</strong>
+  If you see this, don't mess others with these codes
 </p>
 
 ---
